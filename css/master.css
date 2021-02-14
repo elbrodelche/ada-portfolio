@@ -1,6 +1,77 @@
-.header{
-    color: red;
-}
-.footer{
-    color: red;
-}
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #000000;
+    font-size: 1em;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #2e2e31;
+    font-weight: 300;
+  }
+  
+  a:hover {
+    color: #8338ec;
+  }
+  
+  header {
+    padding: 25px 0;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
+    transition: 0.4s;
+    z-index: 1;
+    /* Flex */
+    display: flex;
+    top: 0;
+    justify-content: center;
+  }
+  
+  /* Todos las CSS para 1100 pixeles */
+  @media (max-width: 1100px) {
+    header {
+      display: none;
+    }
+  }
+  
+  .contenedor {
+    width: 100%;
+    max-width: 1100px;
+  }
+  
+  .menu-de-navegacion {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .menu-de-navegacion ul {
+    display: flex;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    list-style: none;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .menu-de-navegacion ul li {
+    text-decoration: none;
+    color: #2e2e31;
+    display: block;
+    line-height: 2.5;
+    border-radius: 100px;
+    padding: 0 10px;
+    margin: 0 10px;
+  }
+  
+  .seleccionada {
+    transition: 0.2s;
+    background-color: #8338ec;
+  }
+  
+  .seleccionada a {
+    padding: 0 30px;
+    color: white;
+  }
+  

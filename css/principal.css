@@ -1,36 +1,53 @@
-body {
-  font-family: "Montserrat", sans-serif;
-  color: #000000;
-  font-size: 1em;
-}
-
-a {
-  text-decoration: none;
-  color: #2e2e31;
-  font-weight: 300;
-}
-
-a:hover {
-  color: #8338ec;
-}
-
-header {
-  padding: 25px 0;
-  width: 100%;
-  background-color: #fff;
-  position: fixed;
-  box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
-  transition: 0.4s;
-  z-index: 1;
-  /* Flex */
+.principal {
+  margin-top: 90px;
   display: flex;
   justify-content: center;
+  padding: 110px 40px 130px;
+  text-align: center;
 }
 
-.menu-navegacion ul {
-  list-style: none;
-  text-transform: uppercase;
+.principal img {
+  width: 500px;
 }
-.menu-navegacion li {
-  padding: 30;
+.principal h1 {
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.acerca-de-mi {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.saludo {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-weight: 800;
+}
+.nombre {
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: #8338ec;
+  font-size: 60px;
+  font-weight: 900;
+}
+.ocupacion {
+  color: #616161;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+.boton {
+  background-color: #8338ec;
+  color: white;
+  padding: 15px 40px;
+  border-radius: 100px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
