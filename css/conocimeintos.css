@@ -1,0 +1,62 @@
+.conocimientos {
+  background-color: #f6f7fb;
+  display: flex;
+  justify-content: center;
+  padding: 110px 40px 130px;
+  text-align: center;
+}
+.conocimientos h2 {
+  font-size: 45px;
+  font-weight: 900;
+  color: black;
+  margin-bottom: 0.375em;
+  line-height: 1.2;
+}
+.conocimientos p {
+  max-width: 400px;
+  line-height: 1.4;
+}
+
+.contenido-conocimientos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grilla-de-tencnologias {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  justify-content: center;
+}
+.elemento {
+  color: #2e2e31;
+  padding: 40px 20px;
+  background-color: #fff;
+  border: 1px solid #dddfe5;
+  border-radius: 8px;
+  width: 260px;
+  margin: 10px;
+  padding: 30px;
+  transition: 0.2s;
+}
+
+.elemento i {
+  font-size: 4.71em;
+  margin-top: 24px;
+  margin-bottom: 20px;
+  display: block;
+  transition: 0.3s;
+}
+
+.elemento p {
+  font-size: 1.25em;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.elemento:hover {
+  border: 1px solid #995cef;
+  color: #673ab7;
+}
