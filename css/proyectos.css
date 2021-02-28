@@ -1,0 +1,57 @@
+.proyectos {
+  display: flex;
+  justify-content: center;
+  padding: 110px 40px 130px;
+  text-align: center;
+}
+.contenido-proyectos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenido-proyectos h2 {
+  font-size: 45px;
+  font-weight: 900;
+  color: black;
+  margin-bottom: 0.375em;
+  line-height: 1.2;
+}
+.contenido-proyectos p {
+  max-width: 400px;
+  line-height: 1.4;
+}
+.grilla-de-proyectos {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  justify-content: left;
+}
+
+.grilla-de-proyectos a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: calc(100% / 3 - (0.75em * 2));
+  margin: 0.75em;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.grilla-de-proyectos a:hover {
+  border: 1px solid #995cef;
+  color: #673ab7;
+}
+.grilla-de-proyectos img {
+  display: block;
+  width: 100%;
+}
+
+.grilla-de-proyectos h3 {
+  font-weight: 600;
+  margin-top: 20px;
+  line-height: 1.4;
+}
