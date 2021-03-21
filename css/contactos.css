@@ -132,17 +132,8 @@ textarea {
   transition: 0.2s;
 }
 
-button:active {
-  background-color: #6314d1;
-}
-button:focus {
-  box-shadow: 0px 0px 7px #8338ec;
-  outline: 0;
-}
-
 .enviar {
-  background-color: #8338ec;
-  color: white;
+  
   padding: 15px 40px;
   border-radius: 100px;
   font-weight: 500;
@@ -150,12 +141,27 @@ button:focus {
   justify-content: center;
   align-items: center;
   border: 0;
-  background-color: transparent;
   font-size: 1em;
   font-family: "Montserrat", sans-serif;
-  color: #2e2e31;
   cursor: pointer;
+  background-color: #8338ec;
+  color: white;
 }
 .enviar:hover {
   background-color: #995cef;
+}
+.enviar:focus {
+  box-shadow: 0px 0px 7px #8338ec;
+  outline: 0;
+}
+.enviar:active {
+  background-color: #6314d1;
+}
+
+button:active {
+  background-color: #6314d1;
+}
+button:focus {
+  box-shadow: 0px 0px 7px #8338ec;
+  outline: 0;
 }
