@@ -28,6 +28,7 @@
       rel="icon"
       href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>"
     />
+    <link rel="stylesheet" href="/css/footer.css"/>
     <link rel="stylesheet" href="/css/reset.css" />
     <link rel="stylesheet" href="/css/master.css" />
     <link rel="stylesheet" href="/css/principal.css" />
@@ -46,16 +47,16 @@
           <!-- Listado de links de navegacion -->
           <ul>
             <li>
-              <a href="#">Hola</a>
+              <a class="" href=#Hola>Hola</a>
             </li>
             <li>
-              <a href="#">Conocimientos</a>
+              <a href="#Conocimientos">Conocimientos</a>
             </li>
             <li>
-              <a href="#">Proyectos</a>
+              <a href="#Proyectos">Proyectos</a>
             </li>
             <li>
-              <a class="seleccionada" href="#">Contacto</a>
+              <a class="seleccionada" href="#Contacto">Contacto</a>
             </li>
           </ul>
         </nav>
@@ -64,7 +65,7 @@
     <!-- Fin Encabezado -->
 
     <!-- Principal -->
-    <section class="principal">
+    <section id="Hola" class="principal">
       <!-- Contenedor -->
       <div
         class="contenedor"
@@ -94,10 +95,10 @@
     <!-- Fin Principal -->
 
     <!-- Conocimientos -->
-    <section class="conocimientos">
+    <section id="Conocimientos" Mis conocimientos class="conocimientos">
       <div class="contenedor contenido-conocimientos">
         <!-- Titulo -->
-        <h2>Mis conocimientos</h2>
+        <h2> Mis conocimientos </h2>
         <p>
           Soy una profesional dedicada a desarrollar estrategias innovadoras
           orientadas al éxito. Me apasiona lo que hago y por eso dirijo mis
@@ -169,7 +170,7 @@
     <!-- Fin Cita -->
 
     <!-- Mis proyectos -->
-    <section class="proyectos">
+    <section id="Proyectos" class="proyectos">
       <div class="contenedor contenido-proyectos">
         <h2>Mis proyectos</h2>
         <p>
@@ -231,7 +232,7 @@
     <!-- Fin Mis proyectos -->
 
     <!-- Contacto -->
-    <section class="contacto">
+    <section id="Contacto" class="contacto">
       <div class="contenedor">
         <div class="tarjeta-contacto">
           <section class="columna-contacto">
@@ -312,7 +313,66 @@
     <!-- Fin Contacto -->
 
     <!-- Pie de pagina -->
-    <footer class="footer"></footer>
+      <footer class="footer">
+     <!-- pie de  navegacion -->
+      <nav class="footer-nav" >
+        <ul>
+          <li class="footer-item">
+            <a href="#Hola" class="footer-a footer-nav"> Hola</a> 
+          </li>
+          <li class="footer-item"> 
+            <a href="#Conocimientos" class="footer-a footer-item"> Conocimientos </a> 
+          </li>
+          <li class="footer-item"> 
+            <a href="#Proyectos" class="footer-a footer-item"> Proyectos</a> 
+          </li>
+          <li class="footer-item"> 
+            <a href="#Contacto" class="footer-a footer-item"> Contacto</a> 
+          </li>
+        </ul>
+      </nav>
+    
+  <!--  Listado de links -->
+        <ul class="footer-links " >
+          <li>
+            <a href="">
+              <i
+                aria-hidden="true"
+                class="footer-links icon links fab fa-twitter"> 
+              </i>
+            </a>
+          </li>
+         
+          <li>
+            <a href="">
+              <i
+                aria-hidden="true"
+                class="footer-links icon links fab fa-github-alt"
+              ></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="">
+              <i
+                aria-hidden="true"
+                class="footer-links icon links fab fa-linkedin-in"
+              ></i>
+            </a>
+          </li>
+          
+          <li>
+            <a href="">
+              <i
+                aria-hidden="true"
+                class="footer-links icon links fas fa-envelope"
+              ></i>
+            </a>
+          </li>
+        </ul>
+        
+          Hecho con por Mariangel
+</footer>
     <!-- Fin Pie de pagina -->
   </body>
 </html>
