@@ -9,18 +9,19 @@
 .principal img {
   width: 500px;
 }
+
 .principal h1 {
   font-size: 60px;
   font-weight: 900;
 }
-
+  
 .acerca-de-mi {
   width: 100%;
   max-width: 500px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  text-align: left;
+  text-align: left; 
 }
 
 .saludo {
@@ -44,10 +45,36 @@
 .boton {
   background-color: #8338ec;
   color: white;
+  text-decoration: none;
   padding: 15px 40px;
   border-radius: 100px;
   font-weight: 500;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width:1100px) {
+  .principal {
+    flex-direction: column;
+    align-items: center;
+  }
+  .principal h1 {
+    font-size: 60px;
+  
+    }
+    .acerca-de-mi{
+      text-align: center;
+      align-items: center;
+    }
+  
+  .img {
+    margin-top: 30px;
+  }
+}
+@media (max-width:450px) {
+  .principal{
+    flex-direction: column;
+    width: 500px;
+  }
 }

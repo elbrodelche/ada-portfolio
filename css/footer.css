@@ -46,3 +46,20 @@ background-color: #8338ec;
 color: #fff;
 border: 1px solid white;    
 }
+   
+ @media (max-width: 700px) {
+    .footer-nav {
+          display: none;
+        }
+    .footer-links {
+          margin-top: 0;
+        }
+      } 
+ 
+ 
+
+      
+
+
+
+

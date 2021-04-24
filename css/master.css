@@ -1,17 +1,8 @@
+
 body {
   font-family: "Montserrat", sans-serif;
   color: #000000;
   font-size: 1em;
-}
-
-a {
-  text-decoration: none;
-  color: #2e2e31;
-  font-weight: 300;
-}
-
-a:hover {
-  color: #8338ec;
 }
 
 header {
@@ -27,9 +18,8 @@ header {
   top: 0;
   justify-content: center;
 }
-
 /* Todos las CSS para 1100 pixeles */
-@media (max-width: 1100px) {
+@media (max-width: 1100px){
   header {
     display: none;
   }
@@ -44,7 +34,14 @@ header {
   display: flex;
   justify-content: flex-end;
 }
-
+.menu-de-navegacion {
+  text-decoration: none;
+  color: #2e2e31;
+  font-weight: 300;
+}
+.menu-de-navegacion :hover {
+  color: #8338ec;
+}
 .menu-de-navegacion ul {
   display: flex;
   margin: 0;
@@ -55,6 +52,7 @@ header {
   display: flex;
   justify-content: flex-end;
 }
+
 .menu-de-navegacion ul li {
   margin: 0 10px;
   line-height: 1.4;
