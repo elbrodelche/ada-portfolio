@@ -17,7 +17,7 @@
   border: 1px solid #e0e0e0;
 }
 .columna-contacto {
-  width: 50%;
+  width: 100%;
 }
 .columna-contacto:first-of-type {
   padding-right: 20px;
@@ -41,8 +41,11 @@
   transition: 0.2s;
   list-style: none;
   padding: 0;
+  display: flex;
+flex-wrap: wrap;
 }
 .tarjeta-contacto li {
+  width: 50%;"
   display: flex;
   margin: 5px 0;
   line-height: 1.4;

@@ -18,12 +18,6 @@ header {
   top: 0;
   justify-content: center;
 }
-/* Todos las CSS para 1100 pixeles */
-@media (max-width: 1100px){
-  header {
-    display: none;
-  }
-}
 
 .contenedor {
   width: 100%;
@@ -74,4 +68,27 @@ header {
 .seleccionada {
   transition: 0.2s;
   background-color: #8338ec;
+}
+
+/* Todos las CSS para 1100 pixeles */
+@media (max-width: 1100px){
+  header {
+    display: none;
+  }
+}
+
+@media (max-width: 650px) {
+  header {
+    display: none;
+  }
+
+  .menu-icon-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .open-menu-btn {
+    display: flex;
+    align-items: center;
+  }
 }
